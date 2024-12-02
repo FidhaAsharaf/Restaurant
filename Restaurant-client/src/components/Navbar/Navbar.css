@@ -1,0 +1,224 @@
+/* 
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5) !important; 
+  position: absolute; 
+  z-index: 10; 
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: flex-start; 
+}
+
+.nav-heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: rgb(227, 232, 234);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-logo {
+  height: 60px;
+  width: 60px;
+  margin-right: 10px;
+}
+
+.navbar-toggle-container {
+  margin-top: 10px; 
+}
+
+.custom-toggler {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-toggler:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.menu-icon {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.nav-link {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+
+.nav-link:hover {
+  color: red;
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 1000; 
+    margin: 0; 
+    transform: none; 
+  }
+
+  body {
+    padding-top: 70px;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-item {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px 0; 
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-pad {
+    padding-left: 200px;
+  }
+} */
+/* Custom navbar styles */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5) !important; /* Transparent black background */
+  position: absolute;
+  z-index: 10;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  display: flex;
+  flex-direction: column; /* Stack logo and toggle button */
+  align-items: center; /* Center horizontally */
+  justify-content: flex-start; /* Ensure proper spacing from top */
+}
+
+/* Navbar heading */
+.nav-heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: rgb(227, 232, 234);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Logo image */
+.img-logo {
+  height: 60px;
+  width: 60px;
+  margin-right: 10px;
+}
+
+/* Toggle button container to position below the logo */
+.navbar-toggle-container {
+  margin-top: 10px; /* Adds spacing between logo and toggle button */
+}
+
+/* Custom toggle button styles */
+.custom-toggler {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the toggle button */
+.custom-toggler:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Icon inside the toggle button */
+.menu-icon {
+  color: white;
+  font-size: 1.5rem; /* Adjust icon size */
+}
+
+/* Navbar items */
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Adjust navbar items layout */
+.nav-item {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* Default text color for links */
+.nav-link {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect on links */
+.nav-link:hover {
+  color: red;
+}
+
+/* Fixed navbar on small devices */
+@media (max-width: 991px) {
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it stays on top of other content */
+    margin: 0; /* Remove any margin */
+    transform: none; /* Remove transform to avoid centering */
+    background-color: rgba(0, 0, 0, 1) !important; /* Solid black background */
+  }
+
+  /* Ensure the body content below the navbar doesn't get hidden */
+  body {
+    padding-top: 70px; /* Adjust this based on your navbar height */
+  }
+
+  /* Adjust navbar items layout for small devices */
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-item {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px 0; /* Add vertical padding to navbar items */
+  }
+}
+
+@media (min-width: 992px) {
+  /* For large screens and above, align navbar items to the left */
+  .nav-pad {
+    padding-left: 200px;
+  }
+}
+.dropdown-item:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Slight white transparency */
+  color: #fff; /* Keep text white */
+}

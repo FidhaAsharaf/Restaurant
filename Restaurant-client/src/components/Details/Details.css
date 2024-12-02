@@ -1,0 +1,126 @@
+.about-section {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+  width: 100%;
+  height: auto;
+}
+
+.image-gap {
+  margin-right: 60px;
+}
+
+
+.about-content {
+  margin-bottom: 50px;
+}
+
+img {
+  width: 600px; /* Ensure the image scales responsively */
+  height: auto;    /* Maintain the aspect ratio */
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    text-align: center; /* Center the content for smaller screens */
+    margin-bottom: 20px; /* Reduce margin for smaller screens */
+  }
+
+  .about-content h1, 
+  .about-content p {
+    text-align: center; /* Ensure text is centered */
+  }
+
+  .about-content img {
+    margin-bottom: 15px; /* Add some spacing below the image */
+  }
+}
+
+html, body {
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+
+.team-card {
+    border: none;
+    transition: transform 0.2s;
+}
+
+.team-card:hover {
+    transform: scale(1.05);
+}
+
+.team-card-img-top {
+    height: 250px; /* Set a fixed height for images */
+    object-fit: cover; /* Ensure images cover the area without distortion */
+}
+
+/* Ensures card body has consistent padding */
+.card-body {
+    padding: 15px; 
+}
+
+/* Responsive font sizes */
+.card-title {
+    font-size: 1.25rem; 
+}
+
+.card-text {
+    font-size: 1rem; 
+}
+
+/* Small device adjustments */
+@media (max-width: 576px) {
+    .team-card-img-top {
+        height: 150px; /* Smaller image height */
+    }
+
+    .card-title {
+        font-size: 1.1rem; /* Smaller font size */
+    }
+
+    .card-text {
+        font-size: 0.9rem; /* Smaller font size */
+    }
+}
+
+
+.small-card {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f8f9fa; /* Light background */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.small-card:hover {
+  background-color: #c35f21; /* Change to your desired hover background color */
+  color: white; /* Change text color on hover */
+}
+
+.small-card h3, .small-card p {
+  transition: color 0.3s;
+}
+
+.small-card:hover h3, .small-card:hover p {
+  color: white; /* Ensure text turns white on hover */
+}
+
+.team-img {
+  width: 100%; /* Full width on all devices */
+  max-width: 200px; /* Max width for larger devices */
+  height: auto; /* Maintain aspect ratio */
+}
+.gallaryimg {
+  width: 350px; /* Let the image take full width of its container */
+  height: 200px; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+.card-para{
+  font-size: 17px;
+}
+@media (max-width: 576px) {
+  .gallaryimg {
+    width: 100%; /* Full width on small devices */
+    height: auto; /* Adjust height automatically */
+  }
+  
+}

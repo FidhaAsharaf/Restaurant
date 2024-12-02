@@ -1,0 +1,90 @@
+/* Full section with a background image */
+.reservation-section {
+  background-image: url('C:\Users\hp\OneDrive\Desktop\MERN\New folder\Restaurant trial\public\images\new22.jpg'); /* Add your background image path */
+  background-size: cover; /* Ensures the background covers the entire section */
+  background-position: center center; /* Centers the background image */
+  background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+  height: auto; /* Set a fixed height */
+  padding: 60px 20px;
+  color: white;
+  position: relative; /* Allows for better positioning of content */
+}
+  
+  /* Content section for heading and text */
+  .reservation-content {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .reservation-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #ffffffe0;
+  }
+  
+  .reservation-content p {
+    font-size: 1.2rem;
+    color: #fefefe;
+    line-height: 1.5;
+  }
+  
+  /* Form container */
+  .reservation-form {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto; /* Center the form */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Form row: make elements inline */
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  }
+  
+  .form-group {
+    flex: 1;
+    min-width: 150px;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  select,
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Reserve button styling */
+  button.reserve-button {
+    padding: 12px;
+    background-color: #d65120;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 200px;
+    margin-left: 37%;
+  }
+  
+  button.reserve-button:hover {
+    background-color: #000000;
+  }
+  
+
+  

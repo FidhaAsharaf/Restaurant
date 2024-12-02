@@ -1,0 +1,22 @@
+.tab-container {
+    width: 100%;
+    background: url('C:\Users\hp\OneDrive\Desktop\MERN\React\RMS\restaurant\public\images\section_bg04.png') no-repeat center center; /* Replace with the actual path to your background image */
+    background-size: cover;
+    min-height: 100vh; /* Ensures the section covers full viewport height */
+    padding: 20px; /* Optional padding */
+  }
+  
+  .tab-container .MuiTabs-root {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background for the tabs */
+    border-radius: 10px;
+  }
+  
+  .tab-container .MuiTab-root {
+    font-weight: bold;
+    color: #333; /* Tab text color */
+  }
+  
+  .tab-container .MuiTabs-indicator {
+    background-color: #1976d2; /* Indicator color */
+  }
+  

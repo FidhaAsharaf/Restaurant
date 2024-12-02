@@ -1,0 +1,47 @@
+/* .carousel-item img {
+    height: 830px;
+    width: 100%;
+  } */
+  
+  .carousel-indicators button {
+    background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent indicators */
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent controls */
+    border-radius: 50%;
+    padding: 10px;
+  }
+  
+  .carousel-caption {
+    position: absolute;            /* Positioning for absolute placement */
+    top: 50%;                     /* Centers vertically */
+    left: 50%;                    /* Centers horizontally */
+    transform: translate(-50%, -50%); /* Offset to center */
+    text-align: center;           /* Center align text */
+    width: 100%;                  /* Full width of the carousel item */
+    height: 885px;                /* Fixed height for the caption box */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    display: flex;                /* Use flexbox for alignment */
+    flex-direction: column;       /* Stack items vertically */
+    justify-content: center;      /* Center content vertically */
+    padding: 20px;                /* Padding around text */
+    border-radius: 5px;          /* Optional: rounded corners */
+  }
+  
+  .carousel-caption h3 {
+    font-size: 2.5rem;            /* Bigger font size for the heading */
+    font-weight: bold;            /* Make the text bold */
+    font-family: 'Cursive', cursive; /* Cursive font family */
+  }
+  
+  .carousel-caption p {
+    font-size: 1.5rem;            /* Bigger font size for the paragraph */
+    font-family: 'Cursive', cursive; /* Cursive font family */
+    font-weight: bold;            /* Make the text bold */
+    margin-top: 10px;            /* Margin above the paragraph */
+                     /* Set the text color to red */
+
+  }
+  

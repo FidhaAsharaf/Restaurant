@@ -1,0 +1,45 @@
+/* Adjusted CSS with responsiveness and improved styles */
+
+
+.card-header-img {
+  width: 100%;
+  height: 250px;
+  
+  object-fit: cover;
+
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+
+
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #bc4f19;
+}
+
+/* View More Button Styling */
+.btn-primary {
+  background-color: #000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #666;
+  color: white;
+}
+
+
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}

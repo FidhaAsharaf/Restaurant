@@ -1,0 +1,87 @@
+.food-menu-section {
+  position: relative;
+  background-image: url('C:/Users/hp/OneDrive/Desktop/MERN/React/RMS/restaurant/public/images/bg_4.png'); /* Background image */
+  background-size: cover;
+  background-position: center;
+  height: auto; /* Auto height */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centers content vertically */
+  padding: 20px; /* Add padding to control spacing */
+  margin-bottom: -20px; /* Pull the next component up */
+}
+
+.overlay-content {
+  background-color: rgba(0, 0, 0, 0.5); /* Dark transparent overlay */
+  padding: 30px;
+  color: white;
+  max-width: auto; /* Ensure it doesn't exceed the container width */
+  margin: 50px; /* Center the overlay horizontally */
+  text-align: center;
+}
+
+
+.food-menu-heading {
+  padding-top: 30px;
+  font-size: 3rem; /* Larger heading */
+  margin-bottom: 20px;
+}
+
+.food-menu-quote {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-style: oblique;
+  color: aliceblue;
+}
+
+.food-menu-subheading {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  font-style: italic;
+  color: aliceblue;
+}
+
+.explore-btn {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .food-menu-section {
+    height: 500px; /* Reduce height for smaller screens */
+  }
+
+  .overlay-content {
+    width: 250px; /* Reduce width on smaller screens */
+  }
+
+  
+}
+
+@media (max-width: 576px) {
+  .food-menu-section {
+    height: 750px; /* Further reduce height for mobile */
+  }
+
+  .overlay-content {
+    width: 200px; /* Further reduce width on mobile */
+    height: 500px;
+  }
+
+  .food-menu-heading {
+    font-size: 2rem; /* Even smaller heading */
+  }
+
+  .food-menu-quote {
+    font-size: 1rem; /* Even smaller quote */
+  }
+
+  .food-menu-subheading {
+    font-size: 1rem; /* Smaller subheading */
+  }
+
+  .explore-btn {
+    font-size: 0.9rem;
+  }
+}

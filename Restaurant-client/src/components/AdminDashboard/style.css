@@ -1,0 +1,61 @@
+/* Navbar Styles */
+.custom-navbar {
+    width: 100%;
+    background-color: #333;
+  }
+  
+  .custom-navbar .navbar-nav li {
+    color: #ffffff;
+  }
+  
+  /* Sidebar Styles */
+  .custom-sidebar {
+    position: fixed;
+    top: 60px; /* Adjust to be below the navbar */
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #292b2c;
+    color: #ffffff;
+    padding-top: 20px;
+    z-index: 100;
+  }
+  
+  .custom-sidebar .nav-item {
+    padding: 10px;
+    font-size: 12px; /* Reduced font size for sidebar options */
+  }
+  
+  .custom-sidebar .nav-item a {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .custom-sidebar .nav-item a:hover {
+    background-color: #4e4e50;
+    border-radius: 4px;
+  }
+  
+  .custom-sidebar .nav-item .profile-image img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  /* Main Content Area */
+  .page-body-wrapper {
+    display: flex;
+    margin-left: 250px; /* Adjust the left margin for the sidebar */
+    flex-grow: 1;
+  }
+  
+  .main-panel {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    margin-top: 60px; /* Adjust for the navbar height */
+  }
+  
+  

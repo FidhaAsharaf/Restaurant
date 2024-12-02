@@ -1,0 +1,58 @@
+
+.menu-content {
+    margin-top: 0;
+    margin-bottom: 50px;
+    background: linear-gradient(180deg, #f0f0f0, #ffffff); /* Grey to white gradient */
+
+  }
+  
+  .menu-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .menu-description {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 20px;
+    color: #666;
+  }
+  
+  .menu-image,
+  .special-dish-image {
+    width: 600px;
+    height: 500px;
+    border-radius: 10px;
+  }
+  
+  /* Responsive styling adjustments */
+  @media (max-width: 768px) {
+    .menu-title {
+      font-size: 28px;
+    }
+  
+    .menu-description {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .menu-title {
+      font-size: 24px;
+    }
+  
+    .menu-description {
+      font-size: 14px;
+    }
+  
+    .menu-content {
+      text-align: center; /* Center the text for small screens */
+    }
+  
+    .menu-image,
+    .special-dish-image {
+      margin-top: 20px; /* Add space between text and image on small screens */
+    }
+  }
+  
